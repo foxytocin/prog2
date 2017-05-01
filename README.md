@@ -6,8 +6,8 @@
 
 | Übung                                     | Anmerkung
 |-                                          |-
-| [KW17 [27.04.2017]](#KW17-[27.04.2017])   | 
-| [KW18 [04.05.2017]](#KW18-[04.05.2017])   |                       
+| [KW17 [27.04.2017]](#kw17)                | 
+| [KW18 [04.05.2017]](#kw18)                |                       
 | KW19 [11.05.2017]                         |
 | KW20 [18.05.2017]                         |
 | KW21 [25.05.2017]                         | Fällt aus - *Christi Himmelfahrt*
@@ -22,7 +22,7 @@
 
 <hr/>
 
-### KW17 [27.04.2017]
+<h3 name="kw17"> KW17 [27.04.2017] </h3>
 Ternäre Operator ● Do-While-Schleife ● break ● continue ● Typumwandlungen ● Inkrement-/Dekrement-Operatoren ● Präzedenz von Operatoren ● Sichtbarkeit von Variablen
 
 * [Zusammenfassung](/KW17/170427.md)
@@ -31,7 +31,7 @@ Ternäre Operator ● Do-While-Schleife ● break ● continue ● Typumwandlung
 
 <hr/>
 
-### KW18 [04.05.2017]
+<h3 name="kw18"> KW18 [04.05.2017] </h3>
 Guter/schlechter Code ● JavaDoc ● Coding Conventions ● Google Java Style ● Style Checker ● Python
 
 <hr/>
