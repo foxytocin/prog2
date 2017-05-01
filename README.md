@@ -2,7 +2,23 @@
 
 ## Ankündigungen
 
-## Übersicht
+## Wochenübersicht
+
+| Übung                                     | Anmerkung
+|-                                          |-
+| [KW17 [27.04.2017]](#KW17-[27.04.2017])   | 
+| [KW18 [04.05.2017]](#KW18-[04.05.2017])   |                       
+| KW19 [11.05.2017]                         |
+| KW20 [18.05.2017]                         |
+| KW21 [25.05.2017]                         | Fällt aus - *Christi Himmelfahrt*
+| KW22 [01.05.2017]                         |
+| KW23 [08.06.2017]                         |
+| KW24 [15.06.2017]                         | Fällt aus - *Fronleichnam*
+| KW25 [22.06.2017]                         |
+| KW26 [29.06.2017]                         |
+| KW27 [06.07.2017]                         |
+| KW28 [13.07.2017]                         |
+| KW29 [20.07.2017]                         |
 
 <hr/>
 
@@ -15,15 +31,7 @@ Ternäre Operator ● Do-While-Schleife ● break ● continue ● Typumwandlung
 
 <hr/>
 
-### <p style="color:grey">KW18 [04.05.2017]</p>
-### <p style="color:grey">KW19 [11.05.2017]</p>
-### <p style="color:grey">KW20 [18.05.2017]</p>
-### <p style="color:green">KW21 [25.05.2017] - Christi Himmelfahrt</p>
-### <p style="color:grey">KW22 [01.05.2017]</p>
-### <p style="color:grey">KW23 [08.06.2017]</p>
-### <p style="color:green">KW24 [15.06.2017] - Fronleichnam</p>
-### <p style="color:grey">KW25 [22.06.2017]</p>
-### <p style="color:grey">KW26 [29.06.2017]</p>
-### <p style="color:grey">KW27 [06.07.2017]</p>
-### <p style="color:grey">KW28 [13.07.2017]</p>
-### <p style="color:grey">KW29 [20.07.2017]</p>
+### KW18 [04.05.2017]
+Guter/schlechter Code ● JavaDoc ● Coding Conventions ● Google Java Style ● Style Checker ● Python
+
+<hr/>
