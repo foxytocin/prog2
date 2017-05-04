@@ -71,4 +71,10 @@ class Main {
         }
         return sum;
     }
+
+    // Wie oben wird davon ausgegangen, dass die eingegebenen
+    // Hex Zahlen mit 0x beginnen
+    public static int einzeilerHex(String hex) {
+        return hex.length() < 2 ? 0 : Integer.parseInt(hex.substring(2, hex.length()), 16);
+    }
 }
