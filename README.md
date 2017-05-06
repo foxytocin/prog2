@@ -1,6 +1,7 @@
 # Übungen zur Vorlesung "Programmierung 2" ![](https://www.hs-fulda.de//typo3conf/ext/hfd/Resources/Public/Images/Fulda_footer_logo.svg)
 
 ## Neu
+* Einige [Anmerkungen](/KW18/170504.md) zu JavaDoc hinzugefügt
 * Einfachere [Methode](/KW17/Main.java) für die hex-int-Umrechnung hinzugefügt
 * Übungen lokal debuggen - [Beispiel](/KW18/170504.md) erstellt
 
