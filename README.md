@@ -3,7 +3,7 @@
 ## Neu
 * [Hinweis](/KW19/170511.md) für die Aufgabe 2c hochgeladen
 * [Übersicht](/KW19/170511.md) primitiver Datentypen mit Beispielen erweitert.
-* Lösungen für die KW19 hochgeladen
+<!--* Lösungen für die KW19 hochgeladen-->
 
 ## Wochenübersicht
 | Übung                         | Stichpunkte
