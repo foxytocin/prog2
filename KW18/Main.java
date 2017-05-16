@@ -14,7 +14,8 @@ public class Main {
     }
 
     /** 
-     * Erste Aufgabe
+     * Erste Aufgabe.
+     * @param z Zahl
      */
     int methode1 (int z) {
         // if (z!=3)
@@ -25,7 +26,8 @@ public class Main {
     }
 
     /**
-     * Zweite Aufgabe
+     * Zweite Aufgabe.
+     * @param x String
      */
     String methode2 (String x) {
         // if (x.equals("hallo"))
@@ -37,7 +39,8 @@ public class Main {
     }
 
     /**
-     * Dritte Aufgabe mit Floats
+     * Dritte Aufgabe mit Floats.
+     * @param i Zahl
      */
     float komplizierteBedingung (float i) {
         // if(i<0.0f)
@@ -50,7 +53,8 @@ public class Main {
     }
 
     /**
-     * Vierte Aufgabe
+     * Vierte Aufgabe.
+     * @param k Zahl
      */
     int correctThis (int k) {
     //void correctThis(int k) {
@@ -74,7 +78,8 @@ public class Main {
     }
 
     /**
-     * Fuenfte Aufgabe
+     * Fuenfte Aufgabe.
+     * @param x Zahl
      */
     float correctThis2 (float x)
     {
@@ -103,7 +108,7 @@ public class Main {
 
     /**
      * Siebte Aufgabe: Liest Zeilen von der Konsole und
-     * gibt diese aus, solange bis "end" eingegeben wurde
+     * gibt diese aus, solange bis "end" eingegeben wurde.
      */
     void druckeStrings2 () {
         // ohne import java.util.Scanner;
@@ -117,12 +122,13 @@ public class Main {
 }
 
 /**
- * Stellt Funktionen bereit um Primzahlen herauszufiltern
+ * Stellt Funktionen bereit um Primzahlen herauszufiltern.
  */
 class sieb {
 
     /**
      * Liefert ein Array gefuellt mit [0 - limit-1]
+     * @param limit Zahl
      */
     public int [] erzeugeKandidaten (int limit) {
         int[] kandidaten = new int[limit];
@@ -134,7 +140,7 @@ class sieb {
     /**
      * Sieb des Eratosthenes:
      * Filtert das uebergebene Array in dem alle 
-     * Nicht-Primzahlen durch -1 ersetzt werden
+     * Nicht-Primzahlen durch -1 ersetzt werden.
      */
     public void filtereKandidaten (int[] kandidaten) {
         for (int p = 2; p < kandidaten.length; p++) {
@@ -149,7 +155,8 @@ class sieb {
     }
     
     /**
-     * Eine allgemeine Loesung zu filtereKandidaten
+     * Eine allgemeine Loesung zu filtereKandidaten.
+     * @param kandidaten Zahlenarray
      */
     public void filtereKandidaten2 (int[] kandidaten) 
     {
@@ -167,7 +174,7 @@ class sieb {
 
     /**
      * Gibt alle Elemente des uebergebenen Arrays 
-     * untereinander auf der Konsole aus
+     * untereinander auf der Konsole aus.
      */
     void druckeKandidaten(int[] kandidaten) {
       for(int i = 0; i < kandidaten.length; i++)
@@ -175,7 +182,8 @@ class sieb {
     }
     
     /**
-     *  Komplett anderer Ansatz - Primzahlentest
+     * Komplett anderer Ansatz - Primzahlentest.
+     * @param kandidaten Zahlenarray
      */
     public void filtereKandidaten3 (int[] kandidaten) {
         for(int i = 0; i < kandidaten.length; i++) {
@@ -185,7 +193,9 @@ class sieb {
     }
 
     /**
-     * Sagt aus ob die uebergebene Zahl eine Primzahl ist
+     * Sagt aus ob die uebergebene Zahl eine Primzahl ist.
+     * @param n Zahl
+     * @return Primzahl ja/nein
      */
     public static boolean test(long n) {
         if (n <= 16)
