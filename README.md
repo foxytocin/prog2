@@ -1,8 +1,7 @@
 # Übungen zur Vorlesung "Programmierung 2" ![](https://www.hs-fulda.de//typo3conf/ext/hfd/Resources/Public/Images/Fulda_footer_logo.svg)
 
 ## Neu
-* [KW20](/KW20) vorbereitet
-* Lösungen für die KW19 hochgeladen
+* [Beispiel:](/KW20/170518.md) Verwendung von Konstruktoren und `static`
 
 ## Wochenübersicht
 | Übung                         | Stichpunkte
