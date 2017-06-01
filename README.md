@@ -1,9 +1,8 @@
 # Übungen zur Vorlesung "Programmierung 2" ![](https://www.hs-fulda.de//typo3conf/ext/hfd/Resources/Public/Images/Fulda_footer_logo.svg)
 
 ## Neu
-* [Lösungen](/KW20) hinzugefügt.
-* [Beispiel:](/KW21/170518.md) Vererben und Überschreiben
-* [Beispiel:](/KW20/170518.md) Verwendung von Konstruktoren und `static`.
+* [KW22](/KW22) vorbereitet.
+* Lösungen für die KW21 sind erst nächste Woche verfügbar.
 
 ## Wochenübersicht
 | Übung                         | Stichpunkte
@@ -13,7 +12,7 @@
 | [KW19 [11.05.2017]](/KW19)    | Compiler ● Java Virtual Machine ● Portabilität ● Machinencode ● Speicherverwaltung ● Referenzvariable ● new ● Primitive Datentypen ● Objekte ● Garbage Collection ● [Sieb](/KW19/Sieb.java) ● [Taylor](/KW19/Taylor.java) ● [Weiteres](/KW19/170511.md)
 | [KW20 [18.05.2017]](/KW20)    | pass-by-value ● pass-by-reference ● Wrapper-Klassen ● Instanzen ● Stempel ● `this` ● Klassendiagramme ● UML ● [Angle.java](/KW20/Angle.java) ● [andere Lösungen](/KW20/Main.java) ● [Weiteres](/KW20/170518.md)
 | [KW21 [25.05.2017]](/KW21)    | Klassenhierarchie ● `Object` ● Vererbung ● `extends` ● `super` ● `@Override` ● UML-Syntax ● Polymorphie ● Substitutionsprinzip ● GUI ● `javax.swing` ● [Weiteres](/KW21/170525.md)
-| KW22 [01.05.2017]             |
+| [KW22 [01.05.2017]](/KW22)    | Sichtbarkeit ● Annotationen ● Prinzipien der OOP ● Abstraktion ● Kapselung ● Vererbung ● Polymorphie ● Wiederverwendbarkeit ● Schnittstelle ● Seiteneffekte ● `protected` ● Abstrakte Methoden und Klassen ● `abstract`
 | KW23 [08.06.2017]             |
 | KW24 [15.06.2017]             | Fällt aus - *Fronleichnam*
 | KW25 [22.06.2017]             |
