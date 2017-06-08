@@ -5,7 +5,7 @@ class AndroidPhone extends Smartphone {
 
   @Override
   public void smsEmpfangen(String text) {
-    super.smsEmpfangen(text);
-    System.out.println(this.typ + " hatte eine Sicherheitslücke und wurde gehackt...");
+    System.out.println("<<" + text);
+    System.out.println(this.typ + " äüßööäüöäßäüöäülüöläüß...\n");
   }
 }

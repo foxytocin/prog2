@@ -1,4 +1,4 @@
-class Smartphone {
+abstract class Smartphone {
   int nr;
   String typ;
 
@@ -26,12 +26,5 @@ class Smartphone {
     Provider.sendeSms (nr, text);
   }
 
-  /**
-   * Wird vom Provider aufgerufen, wenn eine neue
-   * SMS empfangen werden soll.
-   * @param text SMS Inhalt
-   */
-  public void smsEmpfangen (String text) {
-    System.out.println(this.typ + " SMS empfangen: " + text);
-  }
+  abstract public void smsEmpfangen(String text);
 }

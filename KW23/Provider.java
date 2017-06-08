@@ -9,20 +9,18 @@ class Provider {
     nums = new int[max];
     phones = new Smartphone[max];
 
-    Smartphone s = new Smartphone();
     Smartphone w = new WindowsPhone();
     Smartphone a = new AndroidPhone();
     Smartphone i = new IPhone();
+    // Smartphone s = new Smartphone(); // Ist nicht erlaubt, da abstract
 
-    registriereNummer (1234, s);
-    registriereNummer (4321, w);
-    registriereNummer (1423, a);
-    registriereNummer (4132, i);
+    registriereNummer (123, w);
+    registriereNummer (234, a);
+    registriereNummer (345, i);
 
-    s.sms(1423, "Hallo Android, hier ist Smartphone!");   // Smartphone sendet SMS an Android
-    a.sms(4132, "Hallo iPhone!, hier ist ");              // Android sendet SMS an iPhone
-    i.sms(4321, "Hallo Windows!");                        // iPhone sendet SMS an Windows
-    w.sms(1234, "Hallo Smartphone!");                     // Windows sendet SMS an Smarphone
+    a.sms(345, "Hallo iPhone!");   // Android sendet SMS an iPhone
+    i.sms(123, "Hallo Windows!");  // iPhone sendet SMS an Windows
+    w.sms(234, "Hallo Android!");  // Windows sendet SMS an Android
   }
 
   /**

@@ -5,7 +5,7 @@ class IPhone extends Smartphone {
 
   @Override
   public void smsEmpfangen(String text) {
-    super.smsEmpfangen(text);
-    System.out.println(this.typ + " speichert die empfangene SMS in die iCloud...");
+    System.out.println("<<" + text);
+    System.out.println(this.typ + " leitet die SMS an die NSA weiter...\n");
   }
 }
