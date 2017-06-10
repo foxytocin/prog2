@@ -1,6 +1,7 @@
 # Übungen zur Vorlesung "Programmierung 2" ![](https://www.hs-fulda.de//typo3conf/ext/hfd/Resources/Public/Images/Fulda_footer_logo.svg)
 
-<!--## Neu-->
+## Neu
+* Tipp: [Konstruktoren sinnvoll nutzen](/KW22/170601.md)
 
 ## Wochenübersicht
 | Übung                         | Stichpunkte
