@@ -9,9 +9,9 @@ class Provider {
     nums = new int[max];
     phones = new Smartphone[max];
 
-    Smartphone w = new WindowsPhone();
-    Smartphone a = new AndroidPhone();
-    Smartphone i = new IPhone();
+    WindowsPhone w = new WindowsPhone();
+    AndroidPhone a = new AndroidPhone();
+    IPhone i = new IPhone();
     // Smartphone s = new Smartphone(); // Ist nicht erlaubt, da abstract
 
     registriereNummer (123, w);
@@ -21,6 +21,20 @@ class Provider {
     a.sms(345, "Hallo iPhone!");   // Android sendet SMS an iPhone
     i.sms(123, "Hallo Windows!");  // iPhone sendet SMS an Windows
     w.sms(234, "Hallo Android!");  // Windows sendet SMS an Android
+
+    // WindowsPhone implementiert GuthabenAufladbar, daher 
+    // kann es an dieser Stelle als Argument uebergeben werden.
+    guthabenAufladen(w, 10);
+  }
+
+  /**
+   * Ruft die Aufladenfunktion auf dem Objekt, welches das Interface
+   * GuthabenAufladbr implementiert, auf.
+   * @param phone Aufladbares Smartphone
+   * @param guthaben Hoehe
+   */
+  public static void guthabenAufladen(GuthabenAufladbar phone, int guthaben) {
+    phone.aufladen(guthaben);
   }
 
   /**
