@@ -14,8 +14,8 @@
 | [KW21 [25.05.2017]](/KW21)    | Klassenhierarchie ● `Object` ● Vererbung ● `extends` ● `super` ● `@Override` ● UML-Syntax ● Polymorphie ● Substitutionsprinzip ● GUI ● `javax.swing`
 | [KW22 [01.06.2017]](/KW22)    | Sichtbarkeit ● Annotationen ● Prinzipien der OOP ● Abstraktion ● Kapselung ● Vererbung ● Polymorphie ● Wiederverwendbarkeit ● Schnittstelle ● Seiteneffekte ● `protected` ● Abstrakte Methoden und Klassen ● `abstract`
 | [KW23 [08.06.2017]](/KW23)    | Wiederholung KW22 ● `super.methode()` ● Kapseling (Prinzip der OOP) ● Polymorphie und Methodenaufrufe ● `protected` ● `final` ● `abstract` ● Beispiel `java.lang.Number` ● Interfaces ● `implements`
-| [KW24 [15.06.2017]](/KW24)    | Compile-Zeit ● Laufzeit ● Fehlerbehandlung ● `Throwable` ● `Error` ● `Exception` ● `throw` ● `catch` ● `finally`
-| KW25 [22.06.2017]             |
+| KW24 [15.06.2017]             | Laufzeitfehler ● `Throwable` ● `Exception` ● `Error` ● `try` ● `catch` ● `finally` ● `throw`
+| KW25 [22.06.2017]             | Array ● Collections ● ArrayList ● LinkedList ● Generische Programmierung ● Typparameter ● Compile-Zeit ● Laufzeit 
 | KW26 [29.06.2017]             |
 | KW27 [06.07.2017]             |
 | KW28 [13.07.2017]             |
